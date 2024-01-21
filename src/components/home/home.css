@@ -3,5 +3,19 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 45rem; /* Set the height to cover the entire viewport */
+  height: 48rem; /* Set the height to cover the entire viewport */
+}
+
+.title-font {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+}
+
+.subtitle-font {
+  font-family: "Pacifico", cursive;
+}
+
+.home-logo {
+  height: 10rem;
+  border-radius: 5rem;
 }

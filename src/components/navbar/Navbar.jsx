@@ -7,7 +7,7 @@ import "./navbar.css";
 const NavbarLimo = () => {
   return (
     <div>
-      <div className="navbar__info pt-2 pb-2 lemon-yellow text-center">
+      <div className="navbar-info lemon-yellow text-center">
         <div className="row">
           <div className=" col-md-6">
             Gratis verzending vanaf €75 binnen België!
@@ -20,10 +20,12 @@ const NavbarLimo = () => {
       <div>
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="/">Zesty Spirits</Navbar.Brand>
+            <Navbar.Brand href="/" className="navbar-font">
+              Zesty Spirits
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="ml-auto">
+              <Nav className=" ml-auto">
                 <Nav.Link href="/products" className="custom-link">
                   Producten
                 </Nav.Link>

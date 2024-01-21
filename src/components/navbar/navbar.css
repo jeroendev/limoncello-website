@@ -27,3 +27,19 @@
   color: #000000;
   /* Add any other styles as needed */
 }
+
+.navbar-font {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+}
+
+.navbar-info {
+  padding-top: 10px; /* Pas aan naar wens */
+  padding-bottom: 10px; /* Pas aan naar wens */
+  margin-bottom: 0; /* Pas aan naar wens */
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
