@@ -1,0 +1,7 @@
+.home-image {
+  background-image: url("../img/achtergrond-limoncello.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 45rem; /* Set the height to cover the entire viewport */
+}
