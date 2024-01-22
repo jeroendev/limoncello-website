@@ -6,7 +6,7 @@ const About = () => {
     <div className="container mt-5" id="about">
       <h3 className=" text-center mb-4 about-title">Over Ons</h3>
       <div className="row justify-content-center align-items-center">
-        <div className="col-md-6">
+        <div className="col-md-6 text-center">
           <h2 className="about-title">Welkom bij Zesty Spirits</h2>
           <p>
             Zesty Spirits is een gepassioneerde producent van hoogwaardige
