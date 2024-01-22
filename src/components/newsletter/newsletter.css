@@ -1,0 +1,14 @@
+.newsletter-background {
+  background-color: #ffeb3b;
+}
+
+.custom-btn {
+  background-color: #343a40; /* Pas de gewenste achtergrondkleur aan */
+  color: #fff; /* Pas de gewenste tekstkleur aan */
+  border-color: #343a40; /* Pas de gewenste randkleur aan */
+}
+
+.custom-btn:hover {
+  background-color: #292b2c; /* Pas de gewenste achtergrondkleur aan bij hover */
+  border-color: #292b2c; /* Pas de gewenste randkleur aan bij hover */
+}

@@ -4,7 +4,7 @@ import ProductCard from "./ProductCard";
 
 const Products = () => {
   return (
-    <div className="container text-center">
+    <div className="container text-center" id="products">
       <div>
         <hr className=" p-2" />
         <h3 className="products-subtitle mb-md-4 mb-2">Onze producten</h3>

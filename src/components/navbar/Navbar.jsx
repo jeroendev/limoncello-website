@@ -2,9 +2,14 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import "./navbar.css";
 
 const NavbarLimo = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <div>
       <div className="navbar-info lemon-yellow text-center">
@@ -20,21 +25,50 @@ const NavbarLimo = () => {
       <div>
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
           <Container>
-            <Navbar.Brand href="/" className="navbar-font">
+            <Navbar.Brand
+              onClick={scrollToTop}
+              style={{ cursor: "pointer" }}
+              href="/"
+              className="navbar-font"
+            >
               Zesty Spirits
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className=" ml-auto">
-                <Nav.Link href="/products" className="custom-link">
+                <ScrollLink
+                  to="products"
+                  spy={true}
+                  smooth={true}
+                  offset={-10} // Optioneel: aanpassen aan de hoogte van je navbar
+                  duration={1000}
+                  style={{ cursor: "pointer" }}
+                  className="nav-link custom-link"
+                >
                   Producten
-                </Nav.Link>
-                <Nav.Link href="/about" className="custom-link">
+                </ScrollLink>
+                <ScrollLink
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  offset={-50} // Optioneel: aanpassen aan de hoogte van je navbar
+                  duration={1000}
+                  style={{ cursor: "pointer" }}
+                  className="nav-link custom-link"
+                >
                   Over Ons
-                </Nav.Link>
-                <Nav.Link href="/contact" className="custom-link">
+                </ScrollLink>
+                <ScrollLink
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-50} // Optioneel: aanpassen aan de hoogte van je navbar
+                  duration={1000}
+                  style={{ cursor: "pointer" }}
+                  className="nav-link custom-link"
+                >
                   Contact
-                </Nav.Link>
+                </ScrollLink>
               </Nav>
             </Navbar.Collapse>
           </Container>
