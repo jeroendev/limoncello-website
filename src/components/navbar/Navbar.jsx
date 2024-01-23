@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-router-dom";
 import "./navbar.css";
 
 const NavbarLimo = () => {
@@ -69,6 +70,9 @@ const NavbarLimo = () => {
                 >
                   Contact
                 </ScrollLink>
+                <Link to="/cart" className="nav-link custom-link">
+                  Winkelmandje
+                </Link>
               </Nav>
             </Navbar.Collapse>
           </Container>

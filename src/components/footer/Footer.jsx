@@ -28,7 +28,7 @@ const Footer = () => {
               alt="Zesty logo"
               className="footer-image"
             />
-            <h3 className="footer-logo-text">Zesty Spirits</h3>
+            <h3 className="font-special">Zesty Spirits</h3>
           </div>
 
           <div className="col-md-4 order-2 order-md-3">
@@ -48,8 +48,7 @@ const Footer = () => {
         <div className=" text-center text-dark mt-3 pb-1">
           <p>
             &copy; {new Date().getFullYear()} Zesty Spirits. Alle rechten
-            voorbehouden. <br />
-            Website gemaakt door J-DEV
+            voorbehouden.
           </p>
         </div>
       </div>

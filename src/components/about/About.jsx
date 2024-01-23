@@ -4,10 +4,10 @@ import "./about.css";
 const About = () => {
   return (
     <div className="container mt-5" id="about">
-      <h3 className=" text-center mb-4 about-title">Over Ons</h3>
+      <h3 className=" text-center mb-4 font-special">Over Ons</h3>
       <div className="row justify-content-center align-items-center">
         <div className="col-md-6 text-center">
-          <h2 className="about-title">Welkom bij Zesty Spirits</h2>
+          <h2 className="font-special">Welkom bij Zesty Spirits</h2>
           <p>
             Zesty Spirits is een gepassioneerde producent van hoogwaardige
             likeuren. Onze missie is om unieke en verfrissende drankjes te
@@ -31,7 +31,7 @@ const About = () => {
       </div>
       <div className="row mt-4">
         <div className="col">
-          <h3 className="about-title">Onze Waarden</h3>
+          <h3 className="font-special">Onze Waarden</h3>
           <ul>
             <li>
               <strong>Passie:</strong> We zijn gedreven door een diepe liefde

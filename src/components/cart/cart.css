@@ -1,0 +1,7 @@
+.cart-background {
+  background-image: url("../img/winkelmandje-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20rem; /* Set the height to cover the entire viewport */
+}

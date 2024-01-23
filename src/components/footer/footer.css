@@ -7,10 +7,6 @@
   border-radius: 50%;
 }
 
-.footer-logo-text {
-  font-family: "Pacifico", cursive;
-}
-
 .footer-bottles {
   background-image: url("../img/flessen.png");
   background-size: cover;

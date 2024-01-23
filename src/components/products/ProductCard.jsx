@@ -1,7 +1,13 @@
 import React from "react";
 import "./products.css";
 
-const ProductCard = ({ imageSrc, title, description, detailsLink }) => {
+const ProductCard = ({
+  imageSrc,
+  title,
+  description,
+  detailsLink,
+  addToCart,
+}) => {
   return (
     <div className=" col-md-4">
       <a href={detailsLink} className="card-link">
@@ -10,7 +16,12 @@ const ProductCard = ({ imageSrc, title, description, detailsLink }) => {
           <div className="card-body">
             <h3 className="card-title">{title}</h3>
             <p className="card-description">{description}</p>
-            <span className="btn btn-buy">Nu kopen</span>
+            <button
+              onClick={() => addToCart({ title, description, imageSrc })}
+              className="btn btn-buy"
+            >
+              Voeg toe aan winkelmandje
+            </button>
           </div>
         </div>
       </a>
