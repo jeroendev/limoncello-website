@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className="container" id="contact">
       <div className="text-center">
-        <h3 className="font-special mb-4">Contacteer ons</h3>
+        <h1 className="font-special mb-4">Contacteer ons</h1>
       </div>
       <div class="row justify-content-center mb-5">
         <div class="col-md-6">

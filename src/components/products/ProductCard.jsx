@@ -6,21 +6,28 @@ const ProductCard = ({
   title,
   description,
   detailsLink,
-  addToCart,
+  productPrice,
 }) => {
   return (
     <div className=" col-md-4">
-      <a href={detailsLink} className="card-link">
+      <a
+        href={detailsLink}
+        className="card-link "
+        style={{ textDecoration: "none", color: "inherit" }}
+      >
         <div className="card">
           <img src={imageSrc} alt={title} />
           <div className="card-body">
             <h3 className="card-title">{title}</h3>
             <p className="card-description">{description}</p>
+            <p className=" card-subtitle mb-2">€ {productPrice}</p>
             <button
-              onClick={() => addToCart({ title, description, imageSrc })}
-              className="btn btn-buy"
+              href="#"
+              data-name={title}
+              data-price={productPrice}
+              class="add-to-cart btn btn-buy"
             >
-              Voeg toe aan winkelmandje
+              Toevoegen aan winkelmandje
             </button>
           </div>
         </div>
