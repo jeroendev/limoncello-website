@@ -27,7 +27,7 @@ const Products = () => {
         <ProductCard
           imageSrc="../img/zesty-logo.jpeg"
           title="Mandarinello"
-          description="Mandarinello van de beste Spaanse mandarijnen"
+          description="Geniet van onze Mandarinello van de beste Spaanse mandarijnen"
           detailsLink="/mandarinello"
           productPrice="26.99"
         />
