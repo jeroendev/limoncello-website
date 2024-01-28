@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    imageSrc: "../img/zesty-logo.jpeg",
+    imageSrc: "../img/zest-limoncello.jpg",
     title: "Limoncello",
     description:
       "Geniet van onze heerlijke limoncello gemaakt van Amalfi citroenen",
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    imageSrc: "../img/zesty-logo.jpeg",
+    imageSrc: "../img/zest-arancello.jpg",
     title: "Arancello",
     description:
       "Geniet van onze heerlijke arancello gemaakt van verse appelsienen",
@@ -21,10 +21,9 @@ const products = [
   },
   {
     id: 3,
-    imageSrc: "../img/zesty-logo.jpeg",
-    title: "Mandarinello",
-    description:
-      "Geniet van onze Mandarinello van de beste Spaanse mandarijnen",
+    imageSrc: "../img/zest-mandarinello.jpg",
+    title: "Calcecello",
+    description: "Geniet van onze Calcecello van de beste Spaanse limoenen",
     detailsLink: "/mandarinello",
     productPrice: 26.99,
     amount: 1,
