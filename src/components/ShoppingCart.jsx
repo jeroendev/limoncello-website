@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "./shoppingCart.css";
 
 const Cart = ({ cart, setCart, handleChange }) => {
   const [productPrice, setProductPrice] = useState(0);
@@ -53,7 +52,7 @@ const Cart = ({ cart, setCart, handleChange }) => {
                       <img
                         src={item.imageSrc}
                         alt={item.title}
-                        className="img-fluid custom-img"
+                        className="img-fluid custom-cart-img"
                       />
                     </div>
                     <div className="col-md-6">

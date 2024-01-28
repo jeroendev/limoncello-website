@@ -1,3 +1,4 @@
+/***  general section  ***/
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -14,4 +15,101 @@ body {
   text-decoration: none;
   color: #fff;
   border-radius: 5px;
+}
+
+/***  navbar section  ***/
+.navbar-custom-link {
+  position: relative;
+  text-decoration: none;
+  color: black; /* Link color */
+}
+
+.navbar-custom-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px; /* Underline thickness */
+  bottom: 0;
+  left: 0;
+  background-color: #ffeb3b; /* Underline color */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.4s ease-in-out; /* Animation duration and easing */
+}
+
+.navbar-custom-link:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-lemon-yellow {
+  background-color: #ffeb3b;
+  color: #000000;
+}
+
+.navbar-font {
+  font-family: "Pacifico", cursive;
+  font-size: 2.5rem;
+}
+
+.navbar-info {
+  padding-top: 10px; /* Pas aan naar wens */
+  padding-bottom: 10px; /* Pas aan naar wens */
+  margin-bottom: 0; /* Pas aan naar wens */
+}
+
+.navbar-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/***  home section  ***/
+.home-image {
+  background-image: url("../img/achtergrond-limoncello.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 48rem; /* Set the height to cover the entire viewport */
+}
+
+.home-logo {
+  height: 10rem;
+  border-radius: 5rem;
+}
+
+/***  newsletter section  ***/
+.newsletter-background {
+  background-color: #ffeb3b;
+}
+
+/***  cart section  ***/
+.cart-background {
+  background-image: url("../img/winkelmandje-background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20rem; /* Set the height to cover the entire viewport */
+}
+
+.custom-cart-img {
+  max-width: 100%; /* Allow the image to be responsive up to its natural size */
+  width: 80px; /* Set a specific width for the image on small screens */
+}
+
+/***  footer section  ***/
+.footer-container {
+  background-color: #ffeb3b;
+}
+
+.footer-image {
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.footer-bottles {
+  background-image: url("../img/flessen.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 42rem; /* Set the height to cover the entire viewport */
 }

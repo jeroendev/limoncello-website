@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import NavbarLimo from "./components/navbar/Navbar";
-import Home from "./components/home/Home";
-import Footer from "./components/footer/Footer";
+import NavbarLimo from "./components/Navbar";
+import Home from "./components/Home";
+import Footer from "./components//Footer";
 import Products from "./components/products/Products";
-import Contact from "./components/contact/Contact";
-import About from "./components/about/About";
-import Newsletter from "./components/newsletter/Newsletter";
-import ShoppingCart from "./components/cart/ShoppingCart";
+import Contact from "./components/Contact";
+import About from "./components/About";
+import Newsletter from "./components/Newsletter";
+import ShoppingCart from "./components/ShoppingCart";
 
 function App() {
   const [cart, setCart] = useState(

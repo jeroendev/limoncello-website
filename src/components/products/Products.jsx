@@ -1,7 +1,7 @@
 import React from "react";
 import "./products.css";
 import ProductCard from "./ProductCard";
-import products from "./data";
+import products from "../data";
 
 const Products = ({ handleClick }) => {
   return (

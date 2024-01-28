@@ -4,7 +4,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 import { Link } from "react-router-dom";
-import "./navbar.css";
 
 const NavbarLimo = ({ size }) => {
   const scrollToTop = () => {
@@ -13,8 +12,8 @@ const NavbarLimo = ({ size }) => {
 
   return (
     <div>
-      <div className="navbar-info lemon-yellow text-center">
-        <div className="row">
+      <div className="navbar-info navbar-lemon-yellow text-center">
+        <div className="row navbar-row">
           <div className=" col-md-6">
             Gratis verzending vanaf €75 binnen België!
           </div>
@@ -44,7 +43,7 @@ const NavbarLimo = ({ size }) => {
                   offset={-10} // Optioneel: aanpassen aan de hoogte van je navbar
                   duration={1000}
                   style={{ cursor: "pointer" }}
-                  className="nav-link custom-link"
+                  className="nav-link navbar-custom-link"
                 >
                   Producten
                 </ScrollLink>
@@ -55,7 +54,7 @@ const NavbarLimo = ({ size }) => {
                   offset={-50} // Optioneel: aanpassen aan de hoogte van je navbar
                   duration={1000}
                   style={{ cursor: "pointer" }}
-                  className="nav-link custom-link"
+                  className="nav-link navbar-custom-link"
                 >
                   Over Ons
                 </ScrollLink>
@@ -66,11 +65,11 @@ const NavbarLimo = ({ size }) => {
                   offset={-50} // Optioneel: aanpassen aan de hoogte van je navbar
                   duration={1000}
                   style={{ cursor: "pointer" }}
-                  className="nav-link custom-link"
+                  className="nav-link navbar-custom-link"
                 >
                   Contact
                 </ScrollLink>
-                <Link to="/cart" className="nav-link custom-link">
+                <Link to="/cart" className="nav-link navbar-custom-link">
                   <i class="fa-solid fa-cart-shopping"></i> {size}
                 </Link>
               </Nav>
