@@ -6,18 +6,18 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-bottles"></div>
       <div className="container">
-        <div className="row pt-3 justify-content-center align-items-center text-center">
+        <div className="row pt-3 justify-content-center text-center">
           <div className="col-md-4 text-dark order-3 order-md-1">
             <h4>Info</h4>
-            <a href="/privacypolicy" className="text-dark">
+            <a href="" className="text-dark">
               Privacy Policy
             </a>
             <br />
-            <a href="/voorwaarden" className="text-dark">
+            <a href="" className="text-dark">
               Algemene voorwaarden
             </a>
             <br />
-            <a href="/contact" className="text-dark">
+            <a href="" className="text-dark">
               Contacteer ons
             </a>
           </div>
@@ -32,6 +32,7 @@ const Footer = () => {
           </div>
 
           <div className="col-md-4 order-2 order-md-3">
+            <h4>Contact</h4>
             <p className="text-dark">
               <a href="mailto:jeroen.devis61@gmail.com" className="text-dark">
                 info@zestyspirits.be

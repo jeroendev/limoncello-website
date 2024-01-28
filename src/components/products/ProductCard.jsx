@@ -1,12 +1,7 @@
 import React from "react";
 
-const ProductCard = ({
-  imageSrc,
-  title,
-  description,
-  detailsLink,
-  productPrice,
-}) => {
+const ProductCard = ({ item, handleClick }) => {
+  const { imageSrc, detailsLink, title, description, productPrice } = item;
   return (
     <div className="col-md-4">
       <div className="card">
@@ -22,7 +17,10 @@ const ProductCard = ({
             <p className="card-subtitle mb-2">€ {productPrice}</p>
           </div>
         </a>
-        <button className="add-to-cart btn btn-buy">
+        <button
+          onClick={() => handleClick(item)}
+          className="add-to-cart btn btn-buy"
+        >
           Toevoegen aan winkelmandje
         </button>
       </div>

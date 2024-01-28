@@ -5,3 +5,8 @@
   background-repeat: no-repeat;
   height: 20rem; /* Set the height to cover the entire viewport */
 }
+
+.custom-img {
+  max-width: 100%; /* Allow the image to be responsive up to its natural size */
+  width: 80px; /* Set a specific width for the image on small screens */
+}
